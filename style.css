@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(248,203,160,255);
+}
+#globale{
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 700px;
+    
+}
+#header{
+    background-color: rgba(255,102,0,255);
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: space-between;
+    color: black;
+}
+#header svg{
+    width: 50px;
+}
+#header nav{
+width: 80%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+#header img:hover{
+    transform: scale(1.1,1.1);
+}
+a:hover{
+    transform: scale(1.1,1.1);
+}
+#liens:hover{
+    transform: scale(1.1,1.1);
+}
+#liens{
+    background-color: white;
+    border-radius: 3px;
+    
+}
+#bienvenue{
+    display: flex;
+    flex-direction: row;
+
+}
+#bienvenue1{
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(240,185,82,255);
+    
+}
+#texteBienvenue p::first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+#commander{
+    background-color: rgba(235,162,133,255);
+    border: solid black;
+    border-radius: 2px;
+}
+#bienvenue2{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(248,197,116,255);
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+#bienvenue2 img{
+    width: 100%;
+    border-radius: 50%;
+    border: solid black;
+}
+#poutines{
+    display: flex;
+    flex-direction: row;
+    padding: 9px;
+    background-color: rgba(242,162,25,255);
+    text-align: center;
+    align-items: center;
+   
+}
+
+#poutines img{
+    border-radius: 50%;
+    border: solid black;
+    width: 40%;
+    
+    
+}
+#poutines img:hover{
+    transform: scale(5,5);
+}
+#restaurant{
+    background-color: rgba(246,236,158,255);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+#imgRestaurant img{
+    width: 160%;
+}
+#texteRestaurant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+    
+    margin-top: 5%;
+  
+}
+#texteRestaurant p{
+    margin-top: 10%;
+}
+#concours{
+
+background-color: rgba(243,159,123,255);
+display: flex;
+flex-direction: row;
+}
+#sondageCourcours{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#sondage{
+    border: solid black;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+#bouton{
+    padding-left: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#imageConcours{  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#imageConcours img{
+    width: 60%;
+    border-radius: 50%;
+    border: solid black;
+    
+    
+}
+
+#footer{
+    background-color: rgba(255,140,0,255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+    align-items: center;
+}
